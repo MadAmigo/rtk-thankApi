@@ -44,39 +44,21 @@ export const updateUser = createAsyncThunk<any, IUser, {rejectValue:string}>(
  		}
   )
 
-
-
-
- 		//const responce = await axios.delete(`users/${id}`)
-		//console.log('del',responce.status)
-		
- 			//dispatch(usersSlice.actions.deleteUserSuccess(id))
-
-	
-
- 
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
+// import usersSlise from ...
+// export const fetchUsers = () =>{
+// 	return async (dispatch:AppDispatch) =>{
+//  dispatch(usersSlice.actions.fetchingUsers())	
+//			try{
+// 			const responce = await axios.get(`users`)
+// 			dispatch(usersSlice.actions.fetchUsersSuccess())
+//			} catch {
+//			dispatch(usersSlice.actions.fetchUserserror('error loading'))
+//			}				
+// 	}
+// }
 // export const deleteUser = (id:number) =>{
 // 	return async (dispatch:AppDispatch) =>{
-// 		const responce = await axios.delete(`users/${id}`)
-// 		//console.log('del',responce.status)
-		
-// 			dispatch(usersSlice.actions.deleteUserSuccess(id))
-
-	
+// 		const responce = await axios.delete(`users/${id}`)	
+// 			dispatch(usersSlice.actions.deleteUserSuccess(id))	
 // 	}
 // }
