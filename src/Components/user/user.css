@@ -1,0 +1,20 @@
+.userList{
+	display:flex;
+	flex-direction: row;
+	min-width: 200px;
+	padding: 5px;
+
+}
+
+
+.activeUser{
+	margin-right: 5px;
+	background-color: yellow;
+}
+.user{
+	
+	background-color: #e2e2e2;
+}
+.button{
+	margin: 0 5px;
+}
